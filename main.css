@@ -1,0 +1,1197 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+    
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+/* HEADER */
+.container1{
+  max-width: 1415px;
+  width: 100%;
+  margin: auto;
+
+}
+.container{
+  max-width: 1415px;
+  width: 90%;
+  margin: auto;
+}
+
+.flex {
+  width: 100%;
+  margin: auto ;
+  padding-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left img{
+  height: 40px;
+  width: 81px;
+  padding-left: 58px;
+}
+.bookie{
+  text-align: center;
+  padding-right: 59px;
+ 
+}
+
+.container1 nav a{
+
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 2em;
+}
+a{
+  color: black;
+}
+
+a:hover {
+    border-top: 3px solid;
+    color: #0065fc;
+}
+
+/* MAIN */
+
+
+ h1{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.search_bar{
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+
+    
+}
+
+.search_bar .fa-location-dot{
+    font-size: 37px;
+    width: 41px;
+    height: 50px;
+}
+
+i.fa-solid.fa-location-dot::before {
+    font-size: 22px;
+}
+
+/* BOUTTON*/
+#Button-desk{
+    background-color:#0065fc;
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -3px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    max-width: 768px;
+    
+}
+#Button-mobile{
+  display: none;
+}
+
+.search_bar .fa-location-dot{
+    background-color: #f2f2f2;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    text-align:center;
+}
+
+    
+.Search{
+    margin-left: -1px;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-right: -10px;
+    
+}
+::placeholder{
+  color: black;
+}
+    
+
+/* FILTRES */
+
+#filter_bar{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}    
+
+.filters{
+    display:flex;
+    margin-left: 30px;
+   
+
+  
+}
+.filter{
+    display: flex;
+    margin: 9px;
+    align-items: center;
+    border: #d8d7d7 solid 2px;
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor:pointer;
+    font-weight: 700;
+    width: max-content;
+    
+    
+}
+.filter .fa-solid{
+    margin:-3px ;
+    color: #0065fc;
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+    transform: scale(1.2) translateX(2px);
+    background-color: #DEEBFF;
+    align-items: center;
+
+}
+
+
+.filters p{
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+/* ANIMATION FILTRE*/
+
+
+.filter:hover{
+   
+    transform: scale(1.1);
+    color: #0065fc;
+}
+  
+/* iNFORMATION LOGEMENT */
+.info_logement{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.info_logement p{
+    margin-left: 10px;
+}
+.info_logement .fa-solid{
+    border-radius: 20px;
+    color: #0065fc;
+    font-size: 16px;
+    height: 20px;
+    color: #0065fc;
+    background-color: #f2f2f2;
+    width: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/********** HEBERGEMENT ************/
+#hebergement{
+  width: 100%;
+  display: flex;
+ 
+}
+.container .container1{
+  display: none;
+}
+
+.hebergement{
+  align-items:center;
+  
+  height: 685px;
+  background: rgb(239, 237, 237);
+  flex-wrap: wrap;
+  display:flex;
+  border-radius: 20px;
+  justify-content: center;
+  padding-top: 45px;
+  justify-content: space-evenly;
+  
+}
+
+
+
+.card{
+  box-shadow: 0px 5px 17px 6px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  justify-content: center;
+  width: 250px;
+  border-radius: 20px;
+  height: 250px;
+  
+ 
+  
+}
+.card-image img{
+  border: 10px solid white;
+  width: 230px;
+  border-radius: 20px 20px 0 0;
+ 
+}
+.card-body{
+  height: 50px;
+  display: block;
+  margin: 11px;
+}
+h3{
+  margin-block: -12px;
+}
+.card-etoile{
+  margin-top: -7px;
+  font-size: small;
+  color: #0065fc;
+  background-color: transparent;
+
+}
+.card-price{
+  margin-top: -10px;
+}
+.affiche{
+  margin-right: auto;
+  padding-left: 28px;
+}
+
+ img {
+  width: 230px;
+  height: 145px;
+  object-fit: cover;
+  cursor: pointer;
+}
+/********* ASIDE POPULAIRE *********/
+
+.Aside-populaire{
+  width: 38%;
+  background: rgb(239, 237, 237);
+  margin-left: 2em;
+  border-radius: 20px;
+  padding: 20px;
+
+  
+  
+}
+.tittle-populaire{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.tittle-populaire h2{
+  font-size: 18px;
+}
+
+.cardImageSide img{
+  height: 118px;
+  border: 10px solid white;
+  border-radius: 20px 0px 0 20px;
+  width: 175px;
+}
+.card-side{
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  height: 138px;
+  width: 411px;
+  margin-block: 60px;
+  margin-top: auto;
+  box-shadow: 0px 5px 17px 6px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-price1{
+  padding-right: 58px;
+}
+.card-etoile-side{
+  margin-top: 17px;
+  font-size: small;
+  margin-right: 118px;
+  color: #0065fc;
+}
+.card-name-side h2{
+  font-size: 20px;
+  margin-right: 50px;
+}
+.container .tittle-host h2{
+  font-size: 18px;
+  margin-left: 21px;
+  margin-top: -37px;
+}
+
+
+ /*******ACTIVITE A MARSEILLE *******/
+
+#activityMarseille{
+    display: flex; 
+    margin:auto;
+    width: 100%;
+}
+
+.activités h2{
+    padding-block: 25px;
+    font-size: 20px;
+}
+
+ .card-vieuport-image img{
+    height: 473px;
+    width: 260px;
+    border-radius: 20px 20px 0 0px;
+    cursor:pointer;
+    object-fit: cover;
+
+ }
+ .card-vieuport{
+    width: 100%;
+    box-shadow: 0px 11px 15px rgb(107, 105, 105);
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    text-align: center;
+  
+ }
+ .cardNameVieuxPort{
+    cursor:pointer;
+    padding-bottom: 1px;
+    padding-right: 140px;
+ }
+ 
+ #activity{
+  margin: auto;
+ }
+
+ .cardFortDePomegues img{
+    height: 217px;
+    width: 300px;
+    border-radius: 20px 20px 0 0px;
+    cursor:pointer;
+    object-fit: cover;
+ }
+
+ .cardFortDePomegues{
+    width: 100%;
+    box-shadow: 0px 11px 15px rgb(107, 105, 105);
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .cardNameFortDePomegues{
+    padding-bottom: 1px;
+    padding-right: 140px;
+    cursor:pointer;
+
+ }
+.cardIlesduFrioulImage img{
+    height: 133px;
+    width: 300px;
+    border-radius: 20px 20px 0 0px;
+    cursor:pointer;
+    object-fit: cover;
+}
+.cardIlesduFrioul{
+    box-shadow: 0px 11px 15px rgb(107, 105, 105);
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 59px;
+    
+
+}
+.cardNameIlesduFrioul{
+    padding-bottom: 1px;
+    padding-right: 140px;
+    cursor:pointer;
+
+}
+
+.cardParcNationalDesCalanques img{
+    height: 472px;
+    width: 260px;
+    border-radius: 20px 20px 0 0px;
+    cursor:pointer;
+    object-fit: cover;
+}
+.cardParcNationalDesCalanques{
+    
+    box-shadow: 0px 11px 15px rgb(107, 105, 105);
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    text-align: center;
+}
+.cardNameParcNationalDesCalanques{
+    padding-bottom: 3px;
+    padding-right: 6px;
+    cursor:pointer;
+}
+
+.cardNDDLGImage img{
+    height: 163px;
+    width: 300px;
+    border-radius: 20px 20px 0 0px;
+    cursor:pointer;
+    object-fit: cover;
+
+}
+
+.cardNDDLG{
+    box-shadow: 0px 11px 15px rgb(107, 105, 105);
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 37px;
+}
+.cardNameNDDLG{
+    padding-bottom: 1px;
+    padding-right: 82px;
+    cursor:pointer;
+
+}
+
+.cardIPLImage img{
+    height: 207px;
+    width: 300px;
+    border-radius: 20px 20px 0 0px;
+    cursor:pointer;
+    object-fit: cover;
+}
+.cardPL{
+    box-shadow: 0px 11px 15px rgb(107, 105, 105);
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    text-align: center;
+}
+.cardNameIPL{
+    padding-bottom: 2px;
+    padding-right: 140px;
+    cursor:pointer;
+}
+
+ #activityNDGetPL{
+    margin-left: auto;
+ }
+
+  /*****FOOTER ******/
+
+ 
+#foooter1{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(239, 237, 237);
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.Apropos{
+    margin-top: 15px;
+    margin-left: -89px;
+}
+.Apropos h4,p {
+    cursor: pointer;
+}
+
+#footer2{
+    margin-top: 15px;
+}
+.block h4,p {
+    cursor: pointer;
+}
+#footer3{
+    margin-top: 15px;
+}
+.block1 h4,p{
+    cursor: pointer;
+}
+
+/* MEDIA QUERY */
+
+@media all and (max-width: 768px) {
+    
+  .header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .container{
+    width: 100%;
+  }
+  .left img {
+    height: 40px;
+    width: 81px;
+    padding-left: 34px;
+}
+  
+  .left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex{
+    display: block;
+    width: 100%;
+  }
+  .bookie{
+    display: flex;
+    width: 100%;
+    padding-top: 22px;
+    
+  }
+  .container1 nav a{
+    width: 100%;
+    border-bottom: #f2f2f2 solid 4px;
+  }
+ 
+  
+    a{
+      color: black;
+      
+    }
+    
+    nav a:hover {
+        border-top: none;
+        border-bottom: 4px solid;
+        color: #0065fc;
+       
+    }
+    .Main{
+
+      padding-top: 10px;
+      margin: 13px;
+    }
+    
+    .search_bar{
+
+      resize: 20px;
+      
+    }
+    #filter_bar h2{
+      margin-left: 13px;
+    }
+   
+    .filters{
+      width: 60%;
+      font-size: initial;
+      flex-direction: column;
+    }
+    #filter_bar{
+      display:block ;
+    }
+
+    #Button-desk{
+      display: none;
+    }
+    #Button-mobile{
+      display: flex;
+      width: 48px;
+      color: white;
+      background-color: #0065fc;
+      border: none;
+      border-radius: 15px;
+      transform: scale(1.1) translateX(-0.6px);
+      
+      
+    }
+    
+    .activités{
+      text-align: center;
+    }
+
+    .info_logement{
+      margin: 13px;
+    }
+    .fa-magnifying-glass{
+      margin: auto;
+      background: none;
+    }
+    #hebergement{
+      width: 100%;
+      flex-direction: column;
+    }
+    #numero1{order: 2;}
+    #numero2{order: 1;}
+  
+    .hebergement{
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      background: none;
+      
+    }
+    .Aside-populaire{
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      margin-top: 24px;
+      padding: 0;
+      border-radius: 0%;
+      
+    }
+    .card{
+      margin: 10px;
+    }
+    .cardImageSide img{
+      height: 130px;
+      border: 10px solid white;
+      border-radius: 20px 0px 0 20px;
+      width: 122px;
+    }
+    .card-name-side h2 {
+      font-size: 13px;
+      margin-right: 56px;
+  }
+    .card-price1{
+      margin-right: 51px;
+    }
+    .card-side {
+      display: flex;
+      background-color: white;
+      border-radius: 20px;
+      height: 150px;
+      width: 276px;
+      margin-block: 60px;
+      margin-top: auto;
+      box-shadow: 0px 5px 17px 6px rgb(0 0 0 / 15%);
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .cardBodySide{
+    width: 150px;
+  }
+  .card-price1{
+    margin-right: -17px;
+  }
+  .card-etoile-side{
+    width: 92px;
+  }
+  #activityMarseille{
+    flex-direction: column;
+  }
+  .card-vieuport-image img{
+    width: 100%;
+  }
+  .card-vieuport{
+    margin-bottom: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+  .cardParcNationalDesCalanques img{
+    width: 100%;
+  }
+  .cardParcNationalDesCalanques{
+    margin: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 14px;
+  }
+  #activity {
+    margin: auto;
+    margin-bottom: -5px;
+    margin-top: -21px;
+    
+}
+#activityNDGetPL {
+  margin: auto;
+  margin-top: -8px;
+ 
+}
+.cardNDDLG{
+  margin-bottom: 51px;
+  margin-top: 10px;
+}
+.affiche{
+  text-align: center;
+  font-size:18px;
+}
+.Apropos{
+  margin-left: 0;
+  font-size: smaller;
+}
+#footer2,#footer3{
+  font-size: smaller;
+}
+.tittle-host h1{
+  margin-top: 54px;
+}
+.info_logement .fa-solid{
+  margin-bottom: 19px;
+}
+.tittle-populaire{
+  margin-left:24px
+}
+html,body{
+  width:100%;
+  overflow-x:hidden;
+  }
+  .cardFortDePomegues img{
+    height: 133px;
+    width: 300px;
+    border-radius: 20px 20px 0 0px;
+    cursor:pointer;
+    object-fit: cover;
+  }
+  .cardFortDePomegues{
+    box-shadow: 0px 11px 15px rgb(107, 105, 105);
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 59px;
+
+ }
+ .cardNameFortDePomegues{
+    padding-bottom: 1px;
+    padding-right: 140px;
+    cursor:pointer;
+
+ }
+ .card-vieuport-image img{
+  height: 133px;
+  width: 300px;
+  border-radius: 20px 20px 0 0px;
+  cursor:pointer;
+  object-fit: cover;
+
+}
+.card-vieuport{
+  box-shadow: 0px 11px 15px rgb(107, 105, 105);
+  background-color: #f6f1f1;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+
+
+}
+.cardNameVieuxPort{
+  padding-bottom: 1px;
+  padding-right: 140px;
+  cursor:pointer;
+}
+.cardParcNationalDesCalanques img{
+  height: 133px;
+  width: 300px;
+  border-radius: 20px 20px 0 0px;
+  cursor:pointer;
+  object-fit: cover;
+}
+.cardParcNationalDesCalanques{
+  
+  box-shadow: 0px 11px 15px rgb(107, 105, 105);
+  background-color: #f6f1f1;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 59px;
+
+}
+.cardNameParcNationalDesCalanques{
+  padding-bottom: 1px;
+  cursor:pointer;
+}
+
+.cardNDDLGImage img{
+  height: 133px;
+  width: 300px;
+  border-radius: 20px 20px 0 0px;
+  cursor:pointer;
+  object-fit: cover;
+
+}
+
+.cardNDDLG{
+ box-shadow: 0px 11px 15px rgb(107, 105, 105);
+  background-color: #f6f1f1;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 59px;
+}
+.cardNameNDDLG{
+  padding-bottom: 1px;
+  padding-right: 82px;
+  cursor:pointer;
+
+}
+
+.cardIPLImage img{
+  height: 133px;
+  width: 300px;
+  border-radius: 20px 20px 0 0px;
+  cursor:pointer;
+  object-fit: cover;
+}
+.cardPL{
+  box-shadow: 0px 11px 15px rgb(107, 105, 105);
+  background-color: #f6f1f1;
+  border-radius: 20px;
+  text-align: center;
+}
+.cardNameIPL{
+  padding-bottom: 2px;
+  padding-right: 140px;
+  cursor:pointer;
+}
+#foooter1{
+  flex-direction: column;
+  height: auto;
+  font-size: larger;
+  padding-left: 10px;
+}
+
+}
